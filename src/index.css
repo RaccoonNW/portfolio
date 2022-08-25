@@ -1,4 +1,29 @@
-* {
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  font-family: 300 11px/1.4 'Helvetica Neue', 'sans-serif';
+  color: #444;
+  background: #022c43;
+  overflow: hidden;
+  display: block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* * {
   box-sizing: border-box;
 }
 
@@ -51,10 +76,17 @@ body {
 }
 
 .headshot {
-  height: 500px;
-  width: 500px;
+  height: 400px;
+  width: 400px;
+  display: flex;
+  background-color: yellow;
+  
 }
 
 .headshot img {
-  size: 1px;
-}
+  border-radius: 50%;
+  height: auto;
+  max-width: fit-content;
+  object-fit: cover ;
+  display: flex;
+} */
